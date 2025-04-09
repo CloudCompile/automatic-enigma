@@ -1,5 +1,21 @@
-/* Scoped styles for the futuristic input field component */
+/* Global reset to avoid any default browser styles interfering */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Body styling to center the input field */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0c0c0c;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Scoped styles for the futuristic input field component */
 .custom-input-container {
   position: relative;
   display: inline-block;
